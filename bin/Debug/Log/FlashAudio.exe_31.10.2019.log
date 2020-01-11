@@ -1,0 +1,13 @@
+[31.10.2019 22:06:12.930] [TagLib.Mpeg.AudioFile.ReadStart()] TagLib.CorruptFileException: MPEG audio header not found.
+   в TagLib.Mpeg.AudioFile.ReadStart(Int64 start, ReadStyle propertiesStyle)
+   в TagLib.NonContainer.File.Read(ReadStyle propertiesStyle)
+   в TagLib.Mpeg.AudioFile..ctor(String path)
+   в FlashAudio.MainWindow.<NextPlay>d__22.MoveNext() в E:\ProjectsVS\FlashAudio\FlashAudio\MainWindow.xaml.cs:строка 215
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.AsyncMethodBuilderCore.<>c.<ThrowAsync>b__6_0(Object state)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 
+ Операционная система: Microsoft Windows NT 6.2.9200.0 
+ Имеет 64-bit? — Да 
+ Версия, используемой для программы, .NET Framework: 4.0.30319.42000 
+

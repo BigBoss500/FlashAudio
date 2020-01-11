@@ -1,0 +1,54 @@
+[01.11.2019 14:45:30.700] [FlashAudio.MainWindow.Window_Closed()] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в FlashAudio.MainWindow.Window_Closed(Object sender, EventArgs e) в E:\ProjectsVS\FlashAudio\FlashAudio\MainWindow.xaml.cs:строка 292
+   в System.EventHandler.Invoke(Object sender, EventArgs e)
+   в System.Windows.Window.OnClosed(EventArgs e)
+   в System.Windows.Window.WmDestroy()
+   в System.Windows.Window.WindowFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в System.Windows.Interop.HwndSource.PublicHooksFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 
+ Операционная система: Microsoft Windows NT 6.2.9200.0 
+ Имеет 64-bit? — Да 
+ Версия, используемой для программы, .NET Framework: 4.0.30319.42000 
+
+[01.11.2019 14:52:30.621] [NAudio.Wave.AsioOut..ctor()] System.ArgumentException: There is no ASIO Driver installed on your system
+   в NAudio.Wave.AsioOut..ctor(Int32 driverIndex)
+   в NAudio.Wave.AsioOut..ctor()
+   в FlashAudio.MainWindow..ctor() в E:\ProjectsVS\FlashAudio\FlashAudio\MainWindow.xaml.cs:строка 40
+   в FlashAudio.App.App_Startup(Object sender, StartupEventArgs e) в E:\ProjectsVS\FlashAudio\FlashAudio\App.xaml.cs:строка 55
+   в System.Windows.Application.OnStartup(StartupEventArgs e)
+   в System.Windows.Application.<.ctor>b__1_0(Object unused)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 
+ Операционная система: Microsoft Windows NT 6.2.9200.0 
+ Имеет 64-bit? — Да 
+ Версия, используемой для программы, .NET Framework: 4.0.30319.42000 
+
+[01.11.2019 16:20:26.490] [System.Windows.Window.VerifyCanShow()] System.InvalidOperationException: Нельзя задать Visibility или вызвать Show, ShowDialog или WindowInteropHelper.EnsureHandle после закрытия окна.
+   в System.Windows.Window.VerifyCanShow()
+   в System.Windows.Window.Show()
+   в FlashAudio.App.App_Startup(Object sender, StartupEventArgs e) в E:\ProjectsVS\FlashAudio\FlashAudio\App.xaml.cs:строка 58
+   в System.Windows.Application.OnStartup(StartupEventArgs e)
+   в System.Windows.Application.<.ctor>b__1_0(Object unused)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 
+ Операционная система: Microsoft Windows NT 6.2.9200.0 
+ Имеет 64-bit? — Да 
+ Версия, используемой для программы, .NET Framework: 4.0.30319.42000 
+
+[01.11.2019 16:20:26.574] [SourceChord.FluentWPF.ThemeHandler.Initialize()] System.NullReferenceException: Ссылка на объект не указывает на экземпляр объекта.
+   в SourceChord.FluentWPF.ThemeHandler.Initialize(Window win)
+   в SourceChord.FluentWPF.ThemeHandler.<>c__DisplayClass5_0.<.ctor>b__0(Object e, EventArgs args)
+   в System.Windows.Application.OnActivated(EventArgs e)
+   в System.Windows.Application.WmActivateApp(Int32 wParam)
+   в System.Windows.Application.AppFilterMessage(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndWrapper.WndProc(IntPtr hwnd, Int32 msg, IntPtr wParam, IntPtr lParam, Boolean& handled)
+   в MS.Win32.HwndSubclass.DispatcherCallbackOperation(Object o)
+   в System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   в System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler) 
+ Операционная система: Microsoft Windows NT 6.2.9200.0 
+ Имеет 64-bit? — Да 
+ Версия, используемой для программы, .NET Framework: 4.0.30319.42000 
+
